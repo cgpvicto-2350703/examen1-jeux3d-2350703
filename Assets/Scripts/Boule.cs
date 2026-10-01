@@ -20,6 +20,9 @@ public class Boule : MonoBehaviour
     // Référence au Rigidbody de la boule pour appliquer la physique.
     private Rigidbody rigidbody;
 
+    [SerializeField, Tooltip("nombre de charges dacceleration")]
+    private int nbCharge;
+
     /// <summary>
     /// Obtient la vélocité actuelle de la boule.
     /// </summary>
